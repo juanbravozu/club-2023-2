@@ -1,0 +1,24 @@
+.project-card {
+  display: inline-block;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+  width: fit-content;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+.projects-container {
+  display: flex;
+}
+
+.image-container {
+  margin: 20px;
+  max-width: 250px;
+}
+
+.project-title {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
