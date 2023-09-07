@@ -6,3 +6,8 @@
 - [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - [Artículo sobre `git rebase`](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 - [Artículo sobre Gitflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
+
+## HTML Semántico y CMS
+
+- [Video de clase](https://youtu.be/XnFdRrru73E)
+- [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
