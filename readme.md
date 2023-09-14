@@ -10,4 +10,4 @@
 ## HTML Semántico y CMS
 
 - [Video de clase](https://youtu.be/XnFdRrru73E)
-- [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- [Relaciones de tablas en bases de datos](https://in.indeed.com/career-advice/career-development/what-is-relationship-in-database)
