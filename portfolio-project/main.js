@@ -37,20 +37,6 @@ window.addEventListener('DOMContentLoaded', async () => {
       section.appendChild(card);
     });
   } catch (error) {
-    
+    console.error("Ocurrió un error al obtener los proyectos " + error.message);
   }
 });
-
-{/* <article class="project-card">
-  <a href="#" class="project-anchor" aria-label="Más información sobre Mi proyecto de gatos">
-    <div class="image-container">
-      <picture>
-        <img src="https://img.freepik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=2000" alt="Imagen de mi gato">
-      </picture>
-    </div>
-    <h3 class="project-title">Mi proyecto de gatos</h3>
-    <ul id="project-card-1" class="tags-container" aria-label="Categorías de proyecto">
-      <li class="tag" aria-labelledby="project-card-1">Fotografía</li>
-    </ul>
-  </a>
-</article> */}
