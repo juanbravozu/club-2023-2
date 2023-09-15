@@ -1,0 +1,33 @@
+.banner {
+  $self: &;
+
+  margin: 64px 0;
+
+  &__image {
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+    grid-column: 1/5;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+  } 
+
+  &__content {
+    grid-column: 1/5;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 16px;
+  } 
+
+  &__text {
+    text-align: center;
+  }
+
+  &--reversed {
+    #{$self}__content {
+      grid-row: 1 / 2;
+    }
+  }
+}

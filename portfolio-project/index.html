@@ -3,17 +3,77 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/main.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
-    <section class="projects-container">
+    <header class="container">
+      <nav>
+        <a href="/">Mi logo</a>
 
+        <ul>
+          <li>
+            <a href="#">Mi trabajo</a>
+          </li>
+          <li>
+            <a href="#">Sobre mi</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container grid banner">
+      <img 
+        class="banner__image"
+        src="https://hospitalveterinariodonostia.com/wp-content/uploads/2022/02/Personalidad-gatos.png" 
+        alt="">
+      <div class="banner__content banner__content--reversed">
+        <h1 class="heading-1 banner__title">Hola! Soy pepito</h1>
+        <p class="body-l banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      </div>
+    </section>
+    <section class="container projects">
+      <h2 class="heading-2 projects__title">Mi trabajo</h2>
+      <ul class="projects__list"></ul>
     </section>
 
+    <footer>
+      <div>
+        <a href="/">
+          Mi logo
+        </a>
+        <ul>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <a href="#">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#">GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Mi trabajo</a>
+          </li>
+          <li>
+            <a href="#">Sobre mi</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
