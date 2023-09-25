@@ -11,3 +11,8 @@
 
 - [Video de clase](https://youtu.be/XnFdRrru73E)
 - [Relaciones de tablas en bases de datos](https://in.indeed.com/career-advice/career-development/what-is-relationship-in-database)
+
+## CSS responsive
+
+- [Video de clase/Resumen strapi](https://youtu.be/tBdg9toeeyM)
+- [Documentación SASS](https://sass-lang.com/documentation/)
