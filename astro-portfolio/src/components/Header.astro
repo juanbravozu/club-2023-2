@@ -1,0 +1,29 @@
+---
+import { Button } from "./Button";
+import NavLink from "./NavLink.astro";
+interface props {
+
+}
+---
+
+<header class="text-white">
+  <nav class="flex justify-between p-4 max-w-screen-xl m-auto">
+    <a href="/" class="text-2xl font-bold">Mi Logo</a>
+
+    <ul class="flex items-center">
+      <li>
+        <NavLink href="#">
+          Mi trabajo
+        </NavLink>
+      </li>
+      <li>
+        <a href="#">Sobre mi</a>
+      </li>
+      <li>
+        <a href="#">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+
+  <Button client:load>Soy un botón >:D</Button>
+</header>
